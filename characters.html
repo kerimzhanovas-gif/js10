@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Персонажи — Школа Монстров</title>
+    <link rel="icon" href="favicon/favicon.ico" sizes="96x96">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <img class="logo-img" src="images/logo.png" alt="Monster High">
+        <p>Ученики Школы Монстров</p>
+    </header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="characters.html" class="active">Персонажи</a>
+        <a href="favorites.html">Избранное</a>
+        <a href="history.html">История</a>
+        <a href="pets.html">Питомцы</a>
+        <a href="style.html">Стиль</a>
+        <a href="video.html">Видео</a>
+        <a href="tests.html">Тесты</a>
+        <a href="rules.html">Правила</a>
+        <a href="about.html">О сайте</a>
+    </nav>
+    <main>
+        <h2>Главные ученики школы</h2>
+        <p>Нажмите на карточку, чтобы узнать о персонаже больше.</p>
+        <div id="char-grid" class="char-grid"></div>
+    </main>
+    <div id="detail-section" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-btn" class="modal-close">&times;</button>
+            <div id="detail-card"></div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 Учебный проект Monster High</p>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
